@@ -1,6 +1,4 @@
-# KeyboardShortcuts
-
-## keyboardShortcuts.py
+# keyboardShortcuts.py
 
 This program expands keyboard abbreviations into the full-length text intended.
 
@@ -15,8 +13,14 @@ The combinations of keyboard shortcuts and full-length text are defined in the *
 
 ## How it works
 
-The program emulates keystrokes; if you type ``@``-``@``-``<space>``, then the program quickly types ``<backspace>`` - ``<backspace>`` - ``<backspace>`` - to erase the three characters that just have been typed, and then types ``M`` - ``y`` -``E`` ..., etc.
+The program emulates keystrokes; if you type ``@``-``@``-``<space>``, then the program quickly types ``<backspace>`` - ``<backspace>`` - ``<backspace>`` - to erase the three characters that just have been typed, and then types ``P`` - ``i`` -``e`` ..., etc.
 
 ## How to stop the program
 
 ``ctrl``+ ``alt``+``q`` quits the program
+
+## additional
+
+``KeyboardShortcuts`` can be used to trigger external programs by defining a sortcut to a function key.
+
+``KeyboardShortcuts`` has an HTML mode, which defines an extra library of shortcuts for typing html directly if switched on. Add your own abbreviations in the ``keyboardShortcuts.ini`` file.
