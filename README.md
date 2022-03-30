@@ -19,7 +19,7 @@ The program emulates keystrokes; if you type ``@``-``@``-``<space>``, then the p
 
 ``ctrl``+ ``alt``+``q`` quits the program
 
-## additional
+## Additional features
 
 ``KeyboardShortcuts`` can be used to trigger external programs by defining a sortcut to a function key.
 
