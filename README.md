@@ -13,7 +13,7 @@ The combinations of keyboard shortcuts and full-length text are defined in the *
 
 ## How it works
 
-The program emulates keystrokes; if you type ``@``-``@``-``<space>``, then the program quickly types ``<backspace>`` - ``<backspace>`` - ``<backspace>`` - to erase the three characters that just have been typed, and then types ``P`` - ``i`` -``e`` ..., etc.
+The program emulates keystrokes; if you type ``@``-``@``-``<space>``, then the program quickly types ``<backspace>`` - ``<backspace>`` - ``<backspace>`` - to erase the three characters that just have been typed, and then types ``M`` - ``y`` -``E`` ..., etc.
 
 ## How to stop the program
 
