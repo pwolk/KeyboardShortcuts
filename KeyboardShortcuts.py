@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 
-This module expands keyboard abbreviations into the full-length text intended.
+This module expands keyboard abbreviations into the full-length unabbreviated text.
 The combinations of keyboard shortcuts and full-length text are defined in the *.ini file.
 'ctrl+alt+q' quits the program
 
@@ -12,7 +12,7 @@ __author__ = "Pieter van der Wolk"
 
 __copyright__ = "Copyright 2022, Pieter van der Wolk"
 
-__status__ = "beta"  # "pre-alpha" / "alpha" / "beta" / "RC" / "RTM" / "GA" / "Gold"   # https://en.wikipedia.org/wiki/Software_release_life_cycle
+__status__ = "RC"  # "pre-alpha" / "alpha" / "beta" / "RC" / "RTM" / "GA" / "Gold"   # https://en.wikipedia.org/wiki/Software_release_life_cycle
 
 # __Python-version-used__ = "3.9.5"
 
@@ -21,12 +21,6 @@ Bugs
 
 2. configparser sets every key to lowercase. - solved: setting configparser
 3. prevent the program from running more than one instance - todo 17-09-2021
-
-"""
-
-"""
-Feature requests
-
 
 """
 
@@ -51,9 +45,9 @@ config.read('KeyboardShortcuts.ini')
 
 def KeyboardShortcuts():
     """
-    This subroutine connects an action to the F12 key, which is the key connected ot the Herga pedal
+    This subroutine connects an action to the F12 key, which is the key connected to the Herga foot pedal
     Currently in translates F12 to F8, which in turn links to make screenshot
-    Note: chances are you don't have a Herga pedal. You can trigger this action with F12.
+    Note: chances are you don't have a Herga foot pedal. You can trigger this action with F12 instead.
 
     The option is defined in the KeyboardShortcuts.ini file
 
