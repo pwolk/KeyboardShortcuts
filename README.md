@@ -1,4 +1,4 @@
-# keyboardShortcuts.py
+# KeyboardShortcuts.py
 
 This program expands keyboard abbreviations into the full-length text intended.
 
